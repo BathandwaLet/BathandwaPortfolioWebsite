@@ -7,5 +7,5 @@ namespace BathandwaPortfolioWebsite.Controllers;
 
 public class ProjectsController : Controller
 {
-    
+    public IActionResult Index() => View();
 }
