@@ -1,6 +1,11 @@
+using System.Diagnostics;
+using Microsoft.AspNetCore.Mvc;
+using BathandwaPortfolioWebsite.Models;
+
+
 namespace BathandwaPortfolioWebsite.Controllers;
 
-public class ProjectsController
+public class ProjectsController : Controller
 {
     
 }
