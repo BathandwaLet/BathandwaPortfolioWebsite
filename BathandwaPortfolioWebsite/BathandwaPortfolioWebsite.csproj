@@ -6,4 +6,9 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="wwwroot\images\certificates\" />
+      <Folder Include="wwwroot\images\projects\" />
+    </ItemGroup>
+
 </Project>
