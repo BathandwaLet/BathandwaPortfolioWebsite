@@ -7,5 +7,5 @@ namespace BathandwaPortfolioWebsite.Controllers;
 
 public class ExperienceController : Controller
 {
-    
+    public IActionResult Index() => View();
 }
