@@ -7,5 +7,5 @@ namespace BathandwaPortfolioWebsite.Controllers;
 
 public class CertificatesController : Controller
 {
-    
+    public IActionResult Index() => View();
 }
