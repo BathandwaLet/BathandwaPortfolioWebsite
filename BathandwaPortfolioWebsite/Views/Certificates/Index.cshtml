@@ -1,3 +1,90 @@
 @* Views/Certificates/Index.cshtml *@
-@{ ViewData["Title"] = "Certificates"; }
-<h1>Certificates</h1>
+@using BathandwaPortfolioWebsite.Models
+
+@{
+    ViewData["Title"] = "Certificates";
+    var grouped = ViewBag.Grouped as Dictionary<string, List<Certificate>>;
+    var standalone = ViewBag.Standalone as List<Certificate>;
+}
+
+<h1 class="mb-4">Certificates</h1>
+
+@* ── Grouped tracks ── *@
+@if (grouped != null)
+{
+    foreach (var track in grouped)
+    {
+        <div class="mb-5">
+            <h4 class="border-bottom pb-2 mb-3">@track.Key</h4>
+            <div class="list-group">
+                @foreach (var cert in track.Value)
+                {
+                    <div class="list-group-item d-flex justify-content-between align-items-center">
+                        <span>📄 @cert.Title</span>
+                        <div class="d-flex gap-2">
+                            @if (cert.PdfUrl != null)
+                            {
+                                <a href="@cert.PdfUrl" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                    View PDF
+                                </a>
+                            }
+                            @if (cert.CredentialUrl != null)
+                            {
+                                <a href="@cert.CredentialUrl" target="_blank" class="btn btn-sm btn-outline-primary">
+                                    Verify
+                                </a>
+                            }
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    }
+}
+
+@* ── Standalone certs ── *@
+@if (standalone != null && standalone.Any())
+{
+    <h4 class="border-bottom pb-2 mb-3">Other Certificates</h4>
+    <div class="row g-3">
+        @foreach (var cert in standalone)
+        {
+            <div class="col-md-6">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">@cert.Title</h5>
+                        <p class="card-subtitle text-muted mb-3">
+                            @cert.Issuer
+                            @if (cert.IssuedDate != null)
+                            {
+                                <span> · @cert.IssuedDate</span>
+                            }
+                        </p>
+
+                        @if (cert.Status == "in-progress")
+                        {
+                            <span class="badge bg-warning text-dark">⏳ In Progress</span>
+                        }
+                        else
+                        {
+                            <div class="d-flex gap-2">
+                                @if (cert.PdfUrl != null)
+                                {
+                                    <a href="@cert.PdfUrl" target="_blank" class="btn btn-sm btn-outline-secondary">
+                                        📄 View PDF
+                                    </a>
+                                }
+                                @if (cert.CredentialUrl != null)
+                                {
+                                    <a href="@cert.CredentialUrl" target="_blank" class="btn btn-sm btn-outline-primary">
+                                        🔗 Verify
+                                    </a>
+                                }
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}

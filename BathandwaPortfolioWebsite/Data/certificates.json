@@ -3,7 +3,7 @@
   "title": "AI Fundamentals" ,
   "issuer": "DUT and Microsoft" ,
   "group": "AI Skills Hub",
-  "issuedDate": "July 2025",
+  "issuedDate": "27 July 2025",
   "status": "Completed",
   "pdfUrl": "/certificates/ai-skills_hub/ai_fundamentals.pdf",
   "credentialUrl": null
@@ -13,7 +13,7 @@
     "title": "Responsible AI" ,
     "issuer": "DUT and Microsoft" ,
     "group": "AI Skills Hub",
-    "issuedDate": "July 2025",
+    "issuedDate": "27 July 2025",
     "status": "Completed",
     "pdfUrl": "/certificates/ai-skills_hub/responsible_ai.pdf",
     "credentialUrl": null
@@ -23,7 +23,7 @@
     "title": "Generative AI" ,
     "issuer": "DUT and Microsoft" ,
     "group": "AI Skills Hub",
-    "issuedDate": "July 2025",
+    "issuedDate": "27 July 2025",
     "status": "Completed",
     "pdfUrl": "/certificates/ai-skills_hub/generative_ai.pdf",
     "credentialUrl": null
@@ -33,7 +33,7 @@
     "title": "Search Technology" ,
     "issuer": "DUT and Microsoft" ,
     "group": "AI Skills Hub",
-    "issuedDate": "July 2025",
+    "issuedDate": "27 July 2025",
     "status": "Completed",
     "pdfUrl": "/certificates/ai-skills_hub/search_technology.pdf",
     "credentialUrl": null
@@ -43,7 +43,7 @@
     "title": "Microsoft Copilot" ,
     "issuer": "DUT and Microsoft" ,
     "group": "AI Skills Hub",
-    "issuedDate": "July 2025",
+    "issuedDate": "27 July 2025",
     "status": "Completed",
     "pdfUrl": "/certificates/ai-skills_hub/microsoft_copilot.pdf",
     "credentialUrl": null
@@ -53,7 +53,7 @@
     "title": "AI and Accessibility" ,
     "issuer": "DUT and Microsoft" ,
     "group": "AI Skills Hub",
-    "issuedDate": "July 2025",
+    "issuedDate": "27 July 2025",
     "status": "Completed",
     "pdfUrl": "/certificates/ai-skills_hub/ai_and_accessibility.pdf",
     "credentialUrl": null
@@ -63,19 +63,19 @@
     "title": "Foundational C# with Microsoft" ,
     "issuer": "freeCodeCamp and Microsoft" ,
     "group": null,
-    "issuedDate": "February 2026",
+    "issuedDate": "10 February 2026",
     "status": "Completed",
     "pdfUrl": "/certificates/fCC/foundationalcsharp.pdf",
-    "credentialUrl": "https://www.freecodecamp.org/certification/fcc-f012aaa4-2833-4d46-9bd7-d654ade3a5e8/foundational-c-sharp-with-microsoft",
+    "credentialUrl": "https://www.freecodecamp.org/certification/fcc-f012aaa4-2833-4d46-9bd7-d654ade3a5e8/foundational-c-sharp-with-microsoft"
   },
 
   {
     "title": "Relational Databases" ,
     "issuer": "freeCodeCamp" ,
     "group": null,
-    "issuedDate": "February 2026",
+    "issuedDate": null,
     "status": "In-progress",
     "pdfUrl": null,
-    "credentialUrl": null,
+    "credentialUrl": null
   }
   ]
