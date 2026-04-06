@@ -1,2 +1,37 @@
-{
-}
+[
+  {
+    "title": "Risk n Reward",
+    "group": "Solo",
+    "tech stack":"C#(.NET 10), ASP.NET Core MVC, EF Core, PostgreSQL, Git" ,
+    "tags": "probability based, game, web-based, virtual arcade",
+    "project status": "on-going",
+    "description": "Risk n Reward is #C application that explores probability based games"
+  },
+
+  {
+    "title":"SpendSmart",
+    "group": "Solo",
+    "tech stack":"C#(.NET 10), ASP.NET Core MVC, JavaScript, Chart.js, EF Core, PostgreSQL, Git" ,
+    "tags": "finance, web-based",
+    "project status": "on-going",
+    "description": "SpendSmart an ASP.NET Core MVC and PostgreSQL application that tracks personal finances."
+  },
+
+  {
+    "title": "PortfolioWebsite",
+    "group":"Solo",
+    "tech stack":"C#(.NET 10), ASP.NET MVC, Git",
+    "tags":"portfolio, web-based",
+    "project status":"on-going",
+    "description": "This is my portfolio website where I will share my projects"
+  },
+
+  {
+    "title":"Study Load, Save the Semester",
+    "group": "Solo",
+    "tech stack":"C#(.NET 10), ASP.NET Core MVC, JavaScript, Chart.js, EF Core, PostgreSQL, Git" ,
+    "tags": "students, web-based",
+    "project status": "on-going",
+    "description": "Study Load is an ASP.NET Core MVC and PostgreSQL application that tracks the university students study habit and tracks marks.",
+  }
+]
