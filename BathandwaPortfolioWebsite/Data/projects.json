@@ -1,41 +1,65 @@
 [
   {
+    "slug": "risk-n-reward",
     "title": "Risk n Reward",
     "group": "Solo",
-    "techStack":"C#(.NET 10), ASP.NET Core MVC, EF Core, PostgreSQL, Git" ,
-    "tags": "probability based, game, web-based, virtual arcade",
+    "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "EF Core", "Git", "JavaScript", "PostgreSQL", "Git"] ,
+    "tagline": "Virtual arcade and casino platform",
     "projectStatus": "on-going",
-    "description": "Risk n Reward is #C application that explores probability based games",
-    "projectLinkUrl": "https://github.com/BathandwaLet/Risk_n_Reward"
+    "description": "Risk n Reward is full stack web web application featuring 10n mini-games built using .NET10",
+    "projectLinkUrl": "https://github.com/BathandwaLet/Risk_n_Reward",
+    "liveUrl": null,
+    "imageUrl": null,
+    "featured": true,
+    "role":null,
+    "roleDescription": null
   },
 
   {
+    "slug": "spend-smart",
     "title":"SpendSmart",
     "group": "Solo",
-    "techStack":"C#(.NET 10), ASP.NET Core MVC, JavaScript, Chart.js, EF Core, PostgreSQL, Git" ,
-    "tags": "finance, web-based",
+    "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "Chart.js", "EF Core", "Git", "JavaScript", "PostgreSQL", "Git"] ,
+    "tagline": "finance, web-based",
     "projectStatus": "on-going",
-    "description": "SpendSmart an ASP.NET Core MVC and PostgreSQL application that tracks personal finances.",
-    "projectLinkUrl": "https://github.com/BathandwaLet/Finance_Application"
+    "description": "SpendSmart a full stack web application that tracks personal finances.",
+    "projectLinkUrl": "https://github.com/BathandwaLet/Finance_Application",
+    "liveUrl": null,
+    "imageUrl": null,
+    "featured": true,
+    "role":null,
+    "roleDescription": null
   },
 
   {
+    "slug": "portfolio-website",
     "title": "PortfolioWebsite",
     "group":"Solo",
-    "techStack":"C#(.NET 10), ASP.NET MVC, Git",
+    "techStack":["C#(.NET 10)", "ASP.NET Core MVC", "Git"],
     "tags":"portfolio, web-based",
     "projectStatus":"on-going",
-    "description": "This is my portfolio website where I will share my projects",
-    "projectLinkUrl": "https://github.com/BathandwaLet/BathandwaPortfolioWebsite"
+    "description": "This is my portfolio website where I will share my projects, education, experience and contact details",
+    "projectLinkUrl": "https://github.com/BathandwaLet/BathandwaPortfolioWebsite",
+    "liveUrl": null,
+    "imageUrl": null,
+    "featured": false,
+    "role":null,
+    "roleDescription": null
   },
 
   {
+    "slug": "study-load",
     "title":"Study Load, Save the Semester",
     "group": "Solo",
-    "techStack":"C#(.NET 10), ASP.NET Core MVC, JavaScript, Chart.js, EF Core, PostgreSQL, Git" ,
-    "tags": "students, web-based",
+    "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "Git", "JavaScript", "Chart.js", "EF Core", "PostgreSQL"] ,
+    "tagline": "Academic tracking web-based application for students",
     "projectStatus": "on-going",
-    "description": "Study Load is an ASP.NET Core MVC and PostgreSQL application that tracks the university students study habit and tracks marks.",
-    "projectLinkUrl": null
+    "description": "Study Load is a full stack application that tracks the university students study habits and marks. Also provides various study tools",
+    "projectLinkUrl": null,
+    "liveUrl": null,
+    "imageUrl": null,
+    "featured": false,
+    "role":null,
+    "roleDescription": null
   }
 ]
