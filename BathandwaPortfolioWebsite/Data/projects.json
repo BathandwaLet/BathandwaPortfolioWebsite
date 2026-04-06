@@ -11,7 +11,7 @@
     "liveUrl": null,
     "imageUrl": null,
     "featured": true,
-    "role":null,
+    "projectRole":null,
     "roleDescription": null
   },
 
@@ -27,7 +27,7 @@
     "liveUrl": null,
     "imageUrl": null,
     "featured": true,
-    "role":null,
+    "projectRole":null,
     "roleDescription": null
   },
 
@@ -43,7 +43,7 @@
     "liveUrl": null,
     "imageUrl": null,
     "featured": false,
-    "role":null,
+    "projectRole":null,
     "roleDescription": null
   },
 
@@ -59,7 +59,7 @@
     "liveUrl": null,
     "imageUrl": null,
     "featured": false,
-    "role":null,
+    "projectRole":null,
     "roleDescription": null
   }
 ]
