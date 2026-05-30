@@ -1,10 +1,29 @@
 @* Views/Projects/Index.cshtml *@
-@{ ViewData["Title"] = "Projects"; }
-<h1>Projects</h1>
+@using BathandwaPortfolioWebsite.Models
 
-<h3>Risk n Reward</h3>
+@{
+    ViewData["Title"] = "Projects"; 
+    var featured = ViewBag.featured as List<Project>;
+}
+<h1 class="mb-4">Projects</h1>
+
+
+@if (featured.Count > 0)
+{
+    foreach (var project in featured)
+    {
+        <h3>@project.title</h3>
+        <p>
+            @project.description
+        </p>
+        <p>
+            See the project repo on github here:@project.projectlinkUrl
+        </p>
+    }
+}
+@*<h3>Risk n Reward</h3>
 <p>
-    Console-based game exploring system design and clean C# architecture.
+    Console-prototyped game exploring system design and clean C# architecture.
 </p>
 
 <h3>Portfolio Website</h3>
@@ -21,4 +40,4 @@
 <p>
     <em>Coming soon</em> <br/>
     A academic tracking system focused on reaching academic goals, progress and exam preparation. 
-</p>
+</p>*@
