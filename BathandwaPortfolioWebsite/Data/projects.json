@@ -6,7 +6,7 @@
     "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "EF Core", "Git", "JavaScript", "PostgreSQL", "Git"] ,
     "tagline": "Virtual arcade and casino platform",
     "projectStatus": "on-going",
-    "description": "Risk n Reward is full stack web web application featuring 10n mini-games built using .NET10",
+    "description": "Risk n Reward is full stack web web application featuring 10 mini-games built using .NET10",
     "projectLinkUrl": "https://github.com/BathandwaLet/Risk_n_Reward",
     "liveUrl": null,
     "imageUrl": null,
