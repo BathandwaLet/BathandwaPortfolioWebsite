@@ -62,7 +62,7 @@
   {
     "title": "Foundational C# with Microsoft" ,
     "issuer": "freeCodeCamp and Microsoft" ,
-    "group": null,
+    "group": "freeCodeCamp",
     "issuedDate": "10 February 2026",
     "status": "Completed",
     "pdfUrl": "/certificates/fCC/foundationalcsharp.pdf",
@@ -72,7 +72,7 @@
   {
     "title": "Relational Databases" ,
     "issuer": "freeCodeCamp" ,
-    "group": null,
+    "group": "freeCodeCamp",
     "issuedDate": null,
     "status": "In-progress",
     "pdfUrl": null,
