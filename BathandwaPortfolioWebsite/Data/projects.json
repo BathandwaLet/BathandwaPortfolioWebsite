@@ -17,12 +17,12 @@
 
   {
     "slug": "coin-trace",
-    "title":"CoinTrace",
+    "title":"Coin Trace",
     "group": "Solo",
     "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "Chart.js", "EF Core", "Git", "JavaScript", "PostgreSQL", "Git"] ,
     "tagline": "finance, web-based",
     "projectStatus": "on-going",
-    "description": "SpendSmart a full stack web application that tracks personal finances.",
+    "description": "Coin Trace a full stack web application that tracks personal finances.",
     "projectLinkUrl": "https://github.com/BathandwaLet/Finance_Application",
     "liveUrl": null,
     "imageUrl": null,
