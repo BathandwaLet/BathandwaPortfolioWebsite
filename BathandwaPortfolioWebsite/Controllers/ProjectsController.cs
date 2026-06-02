@@ -11,7 +11,7 @@ public class ProjectsController : Controller
     private readonly IWebHostEnvironment _env;
     public ProjectsController(IWebHostEnvironment env)
     {
-        _env = _env;
+        _env = env;
     }
     public IActionResult Index()
     {
@@ -21,7 +21,7 @@ public class ProjectsController : Controller
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         var all = JsonSerializer.Deserialize<List<Project>>(json, options) ?? [];
 
-        var featured = all.Where(p => p.featured == true).ToList();
+        var featured = all.Where(p => p.Featured == true).ToList();
 
         ViewBag.featured = featured;
         
