@@ -8,36 +8,33 @@
 <h1 class="mb-4">Projects</h1>
 
 
-@if (featured.Count > 0)
+@if (featured.Count > 0 && featured.Count != 0)
 {
     foreach (var project in featured)
     {
-        <h3>@project.title</h3>
+        <h3>@project.Title</h3>
         <p>
-            @project.description
+            @project.Tagline
         </p>
         <p>
-            See the project repo on github here:@project.projectlinkUrl
+            Technologies used: 
+            @foreach (var tech in project.TechStack)
+            {
+                <span class="badge bg-dark me-1">@tech</span>
+            } 
         </p>
+        @if (project.LiveUrl != null)
+        {
+            <p>
+                See it live here: <a href="@project.LiveUrl" target="_blank">@project.LiveUrl</a> 
+            </p>
+        }
+        @if (project.ProjectlinkUrl != null)
+        {
+            <p>
+                Github: <a href="@project.ProjectlinkUrl" target="_blank">@project.ProjectlinkUrl</a>
+            </p>
+        }
+        
     }
 }
-@*<h3>Risk n Reward</h3>
-<p>
-    Console-prototyped game exploring system design and clean C# architecture.
-</p>
-
-<h3>Portfolio Website</h3>
-<p>
-    Personal portfolio built with ASP.NET MVC.
-</p>
-
-<h3>CoinTrace</h3>
-<p>
-    Finance Tracking Application built using ASP.NET MVC
-</p>
-
-<h4>Study Load, Save the semester</h4> 
-<p>
-    <em>Coming soon</em> <br/>
-    A academic tracking system focused on reaching academic goals, progress and exam preparation. 
-</p>*@
