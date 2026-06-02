@@ -2,19 +2,19 @@ namespace BathandwaPortfolioWebsite.Models;
 
 public class Project
 {
-    public string slug { get; set; }
+    public string Slug { get; set; }
     
-    public string title { get; set; }
+    public string Title { get; set; }
     
-    public string group { get; set; }
+    public string Group { get; set; }
     
-    public string techStack { get; set; }
+    public string TechStack { get; set; }
     
-    public string tagline { get; set; }
+    public string Tagline { get; set; }
     
-    public string projectStatus { get; set; }
+    public string ProjectStatus { get; set; }
     
-    public string description { get; set; }
+    public string Description { get; set; }
     
     public string projectlinkUrl { get; set; }
     
