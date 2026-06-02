@@ -8,7 +8,7 @@ public class Project
     
     public string Group { get; set; }
     
-    public string TechStack { get; set; }
+    public string[] TechStack { get; set; }
     
     public string Tagline { get; set; }
     
