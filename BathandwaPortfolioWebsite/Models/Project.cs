@@ -16,17 +16,17 @@ public class Project
     
     public string Description { get; set; }
     
-    public string projectlinkUrl { get; set; }
+    public string ProjectlinkUrl { get; set; }
     
-    public string liveUrl { get; set; }
+    public string LiveUrl { get; set; }
     
-    public string imageUrl { get; set; }
+    public string ImageUrl { get; set; }
     
-    public bool featured { get; set; }
+    public bool Featured { get; set; }
     
-    public string projectRole { get; set; }
+    public string ProjectRole { get; set; }
     
-    public string roleDescription { get; set; }
+    public string RoleDescription { get; set; }
     
     
 }
