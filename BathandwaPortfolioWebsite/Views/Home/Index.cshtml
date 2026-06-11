@@ -2,23 +2,25 @@
     ViewData["Title"] = "Home Page";
 }
 
-<div class="text-center" xmlns="http://www.w3.org/1999/html">
-    <img style="max-height: 450px; max-width: 450px" src="images/profileimage/Profile_Image.png"/>
-    <h1>Sawubona, I am Bathandwa Maphumulo</h1>
-    <h3>•Software Developer         •DUT ICT Student</h3>
+<body class="light-theme">
+    <div class="text-center" xmlns="http://www.w3.org/1999/html">
+        <img style="max-height: 450px; max-width: 450px" src="images/profileimage/Profile_Image.png"/>
+        <h1>Sawubona, I am Bathandwa Maphumulo</h1>
+        <h3>•Software Developer         •DUT ICT Student</h3>
     
-    <p>
-        I build web-based apps using C# and .NET Framework. I am currently working on a virtual arcade platform, called Risk n Reward.
-    </p>
+        <p>
+            I build web-based apps using C# and .NET Framework. I am currently working on a virtual arcade platform, called Risk n Reward.
+        </p>
     
-    <a asp-controller="Projects" asp-action="Index">
-        <button class="btn btn-dark">View Projects</button>
-    </a>
+        <a asp-controller="Projects" asp-action="Index">
+            <button class="btn btn-dark">View Projects</button>
+        </a>
     
-    <a asp-controller="Contact" asp-action="Index">
-        <button class="btn btn-dark">Contact Me</button>
-    </a>
-    
-    
-    
-</div>
+        <a asp-controller="Contact" asp-action="Index">
+            <button class="btn btn-dark">Contact Me</button>
+        </a>
+        
+        <button class="btn-darkMode">Dark</button>
+        <script src="js/site.js"></script>
+    </div>
+</body>
