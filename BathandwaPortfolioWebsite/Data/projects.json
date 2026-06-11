@@ -12,14 +12,17 @@
     "imageUrl": null,
     "featured": true,
     "projectRole":null,
-    "roleDescription": null
+    "roleDescription": null,
+    "lessonsLearnt": ["KISS(Keep It Simple Stupid)", "Modularised Code", "System Design Matters", "Version control is a skill", "Scope Creep is the Biggest Enemy", "Refactoring is part of development, not a failure"],
+    "lessonsLearntDescription": ["The most simple solution is usually the best solution.\nIn this project complexity usually ended up meaning more time spent refactoring code","Breaking logic into smaller, focused components reduced bugs and improves code readability and quality.","Planning the architecture, even at a basic level, made a significant difference in how easy the code was to extend and understand.","This project was my first real exposure to Git and GitHub and fundamentally changed how I approach software development.","Fixing one issue often revealed another,Sometimes this was discouraging to say the least. But a time progressed the errors began decreasing reinforcing that refactoring is normal."],
+    "projectIdea": "The idea came to me in the December holidays of 2025, I was trying to learn more 'advanced' coding concepts practicing in small isolated console projects.\nThis quickly becoming frustrating as yes I knew what OOP is but I wanted to understand how does this translate to a real project.\n Few days go by I keep seeing betting app advertisements on the television, in particular the Aviator game. I wanted to figure out the logic behind the game. I fired up my laptop and got to writing the code for my version of aviator called Crash and then the rest is history."
   },
 
   {
     "slug": "coin-trace",
     "title":"Coin Trace",
     "group": "Solo",
-    "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "Chart.js", "EF Core", "Git", "JavaScript", "PostgreSQL", "Git"] ,
+    "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "Chart.js", "EF Core", "Git", "JavaScript", "PostgreSQL"] ,
     "tagline": "finance, web-based",
     "projectStatus": "on-going",
     "description": "Coin Trace a full stack web application that tracks personal finances.",
@@ -28,7 +31,10 @@
     "imageUrl": null,
     "featured": true,
     "projectRole":null,
-    "roleDescription": null
+    "roleDescription": null,
+    "lessonsLearnt": ["Code first approach to Database integration","Implementation of scripts", "Language interoperability"],
+    "lessonsLearntDescription": ["Code first","Scripts","Language interops"],
+    "projectIdea": "This was based off a tutorial I found for ASPNET. I wanted to see how many useful features I could add to it and have a web based app i could use to track my on expenses as a student"
   },
 
   {
