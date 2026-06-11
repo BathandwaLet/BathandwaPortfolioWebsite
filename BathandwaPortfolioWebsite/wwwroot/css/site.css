@@ -19,6 +19,7 @@ html {
 
 body {
   margin-bottom: 60px;
+  background: var(--bg);  
 }
 
 .form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
@@ -34,4 +35,45 @@ body {
     position: relative;
     width: 50px;
     height: 50px;
+}
+
+.dark-theme{
+    --bg: var(--navy);
+    --titleFontColor: var(--gold);
+    --bodyFontColour: var(--light-gray);
+    --btnFontColor: var(--navy);
+    --btnBg: var(--light-grey)
+}
+
+.light-theme{
+    --bg: var(--light-grey);
+    --titleFontColor: var(--gold);
+    --bodyFontColor: var(--dark-gray);
+    --btnFontColor: var(--off-white);
+    --btnBg: var(--navy)
+    
+}
+
+.btn-darkMode{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    height: 50px;
+    width: 50px;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+
+:root{
+    --black: #000000;
+    --gold: #b8860b;
+    --gray: #6b7280;
+    --white: #ffffff;
+    --off-white: #fafafa;
+    --navy: #0a192f;
+    --light-gray: #e5e5e5;
+    --dark-gray: #2e2e2e;
+    --light-grey: #b3b3b3;
+    --gold1: #d4af37;
 }
