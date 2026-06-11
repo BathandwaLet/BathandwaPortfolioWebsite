@@ -28,5 +28,10 @@ public class Project
     
     public string RoleDescription { get; set; }
     
+    public string[] Lessons { get; set; }
+    
+    public string[] LessonsDescription { get; set; }
+    
+    public string ProjectIdea { get; set; }
     
 }
