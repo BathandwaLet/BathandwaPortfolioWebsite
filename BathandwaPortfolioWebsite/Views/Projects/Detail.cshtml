@@ -1,3 +1,63 @@
 @* Views/Projects/Detail.cshtml *@
-@{ ViewData["Title"] = "Project Detail"; }
-<h1>Project Detail</h1>
+@{
+    ViewData["Title"] = "Project Details";
+    var featured = ViewBag.featured as List<Project>;
+}
+<body class="light-theme">
+    <button class="btn-btn">
+        <a asp-controller="Projects" asp-action="Index">← Back to Projects</a>
+    </button>
+    <h1>Project Detail</h1>
+
+    @if (featured.Count > 0)
+    {
+        foreach (var project in featured)
+        {
+            <h3>@project.Title</h3>
+            <p>
+                @project.Description
+            </p>
+            <p>
+                Technologies used:
+                @foreach (var tech in project.TechStack)
+                {
+                    <span class="badge bg-dark me-1">@tech</span>
+                }
+            </p>
+            <p>
+                @project.ProjectStatus
+            </p>
+            @if (project.LiveUrl != null)
+            {
+                <p>
+                    See it live here: <a href="@project.LiveUrl" target="_blank">@project.LiveUrl</a>
+                </p>
+            }
+
+            @if (project.ProjectlinkUrl != null)
+            {
+                <p>
+                    Github: <a href="@project.ProjectlinkUrl" target="_blank">@project.ProjectlinkUrl</a>
+                </p>
+            }
+
+            <p>
+                @project.ProjectIdea
+            </p>
+            @*
+            <p>
+                <ol>
+                    @for (int i = 0; i < project.Lessons.Length; i++)
+                    {
+                        <li>
+                            @project.Lessons[i];
+                            @project.LessonsDescription[i];
+                        </li>
+                    }
+                </ol>
+            </p>
+            *@
+        }
+    }
+    
+</body>
