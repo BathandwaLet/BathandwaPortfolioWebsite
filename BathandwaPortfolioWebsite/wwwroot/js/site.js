@@ -1,6 +1,6 @@
 ﻿'use strict';
 
-const switcher = document.querySelector('.btn');
+const switcher = document.querySelector('.btn-darkMode');
 
 switcher.addEventListener('click', function(){
     document.body.classList.toggle('light-theme');
