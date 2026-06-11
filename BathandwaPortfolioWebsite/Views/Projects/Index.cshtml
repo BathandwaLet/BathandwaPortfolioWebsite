@@ -5,36 +5,39 @@
     ViewData["Title"] = "Projects"; 
     var featured = ViewBag.featured as List<Project>;
 }
-<h1 class="mb-4">Projects</h1>
+
+<body class="light-theme">
+    <h1>Projects</h1>
 
 
-@if (featured.Count > 0 && featured.Count != 0)
-{
-    foreach (var project in featured)
+    @if (featured.Count > 0 && featured.Count != 0)
     {
-        <h3>@project.Title</h3>
-        <p>
-            @project.Tagline
-        </p>
-        <p>
-            Technologies used: 
-            @foreach (var tech in project.TechStack)
+        foreach (var project in featured)
+        {
+            <h3>@project.Title</h3>
+            <p>
+                @project.Tagline
+            </p>
+            <p>
+                Technologies used: 
+                @foreach (var tech in project.TechStack)
+                {
+                    <span class="badge bg-dark me-1">@tech</span>
+                } 
+            </p>
+            @if (project.LiveUrl != null)
             {
-                <span class="badge bg-dark me-1">@tech</span>
-            } 
-        </p>
-        @if (project.LiveUrl != null)
-        {
-            <p>
-                See it live here: <a href="@project.LiveUrl" target="_blank">@project.LiveUrl</a> 
-            </p>
-        }
-        @if (project.ProjectlinkUrl != null)
-        {
-            <p>
-                Github: <a href="@project.ProjectlinkUrl" target="_blank">@project.ProjectlinkUrl</a>
-            </p>
-        }
+                <p>
+                    See it live here: <a href="@project.LiveUrl" target="_blank">@project.LiveUrl</a> 
+                </p>
+            }
+            @if (project.ProjectlinkUrl != null)
+            {
+                <p>
+                    Github: <a href="@project.ProjectlinkUrl" target="_blank">@project.ProjectlinkUrl</a>
+                </p>
+            }
         
+        }
     }
-}
+</body>
