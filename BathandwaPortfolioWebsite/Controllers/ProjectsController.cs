@@ -36,11 +36,11 @@ public class ProjectsController : Controller
         var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
         var all = JsonSerializer.Deserialize<List<Project>>(json, options) ?? [];
 
-        var featured = all.Where(p => p.Featured == true).ToList();
-        
-        ViewBag.featured = featured;
+        var project = all.FirstOrDefault(p => p.Slug == slug);
+
+        if (project == null) return NotFound();
         //find a way to isolate a single project.
         
-        return View();
+        return View(project);
     }
 }
