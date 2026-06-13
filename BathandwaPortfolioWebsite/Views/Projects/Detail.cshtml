@@ -5,8 +5,9 @@
 @{
     ViewData["Title"] = Model.Title;
 }
-<button class="btn-btn">
-    <a asp-controller="Projects" asp-action="Index">← Back to Projects</a></button>
+
+<a asp-controller="Projects" asp-action="Index"><button class="btn-btn">← Back to Projects</button></a>
+
 <h1>@Model.Title</h1>
 
 <p>
