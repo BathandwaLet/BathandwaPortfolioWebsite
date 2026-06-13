@@ -3,7 +3,7 @@
     "slug": "risk-n-reward",
     "title": "Risk n Reward",
     "group": "Solo",
-    "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "EF Core", "Git", "JavaScript", "PostgreSQL", "Git"] ,
+    "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "EF Core", "Git", "JavaScript", "PostgreSQL"] ,
     "tagline": "Virtual arcade and casino platform",
     "projectStatus": "on-going",
     "description": "Risk n Reward is full stack web web application featuring 10 mini-games built using .NET10",
@@ -14,7 +14,7 @@
     "projectRole":null,
     "roleDescription": null,
     "lessonsLearnt": ["KISS(Keep It Simple Stupid)", "Modularised Code", "System Design Matters", "Version control is a skill", "Scope Creep is the Biggest Enemy", "Refactoring is part of development, not a failure"],
-    "lessonsLearntDescription": ["The most simple solution is usually the best solution.\nIn this project complexity usually ended up meaning more time spent refactoring code","Breaking logic into smaller, focused components reduced bugs and improves code readability and quality.","Planning the architecture, even at a basic level, made a significant difference in how easy the code was to extend and understand.","This project was my first real exposure to Git and GitHub and fundamentally changed how I approach software development.","Fixing one issue often revealed another,Sometimes this was discouraging to say the least. But a time progressed the errors began decreasing reinforcing that refactoring is normal."],
+    "lessonsLearntDescription": ["The most simple solution is usually the best solution.\nIn this project complexity usually ended up meaning more time spent refactoring code","Breaking logic into smaller, focused components reduced bugs and improves code readability and quality.","Planning the architecture, even at a basic level, made a significant difference in how easy the code was to extend and understand.","This project was my first real exposure to Git and GitHub and fundamentally changed how I approach software development.","Adding features and is great and all but it has delayed my initial plan significantly. Now I know that some ideas are meant for future updates, post deployment.","A module of code performing the same instructions can be written in many different ways. Each way has certain benefits and tradeoffs. Sometimes optimising this block off code led to problems in other dependent blocks of code.\n This was frustrating in the beginning but I came to understand that this is part and parcel of software development, it is not a failure but an opportunity to rethink how I approach the problem."],
     "projectIdea": "The idea came to me in the December holidays of 2025, I was trying to learn more 'advanced' coding concepts practicing in small isolated console projects.\nThis quickly becoming frustrating as yes I knew what OOP is but I wanted to understand how does this translate to a real project.\n Few days go by I keep seeing betting app advertisements on the television, in particular the Aviator game. I wanted to figure out the logic behind the game. I fired up my laptop and got to writing the code for my version of aviator called Crash and then the rest is history."
   },
 
@@ -23,7 +23,7 @@
     "title":"Coin Trace",
     "group": "Solo",
     "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "Chart.js", "EF Core", "Git", "JavaScript", "PostgreSQL"] ,
-    "tagline": "finance, web-based",
+    "tagline": "Finance, Web-based",
     "projectStatus": "on-going",
     "description": "Coin Trace a full stack web application that tracks personal finances.",
     "projectLinkUrl": "https://github.com/BathandwaLet/Finance_Application",
@@ -50,7 +50,10 @@
     "imageUrl": null,
     "featured": false,
     "projectRole":null,
-    "roleDescription": null
+    "roleDescription": null,
+    "lessonsLearnt":[] ,
+    "lessonsLearntDescription":[] ,
+    "projectIdea": null
   },
 
   {
