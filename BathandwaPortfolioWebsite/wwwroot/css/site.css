@@ -21,6 +21,12 @@ body {
   margin-bottom: 60px;
   background: var(--bg);
   color: var(--bodyFontColor);
+  animation: fadeIn 0.3s ease-in;  
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(8px); }
+    to   { opacity: 1; transform: translateY(0); }
 }
 
 footer {
@@ -48,7 +54,11 @@ footer {
     --titleFontColor: var(--gold);
     --bodyFontColor: var(--light-gray);
     --btnFontColor: var(--navy);
-    --btnBg: var(--light-gray1)
+    --btnBg: var(--light-gray1);
+    --ctaBtnBg: var(--gold);
+    --ctaBtnFontColor: var(--navy);
+    --backBtnBg: var(--light-gray1);
+    --backBtnFontColor: var(--navy);
 }
 
 .dark-theme .navbar {
@@ -71,7 +81,11 @@ footer {
     --titleFontColor: var(--navy);
     --bodyFontColor: var(--dark-gray);
     --btnFontColor: var(--off-white);
-    --btnBg: var(--navy)
+    --btnBg: var(--navy);
+    --ctaBtnBg: var(--navy);
+    --ctaBtnFontColor: var(--light-gray1);
+    --backBtnBg: var(--navy);
+    --backBtnFontColor: var(--light-gray);
     
 }
 
@@ -84,6 +98,21 @@ footer {
     border: none;
     color: var(--btnFontColor);
     background-color: var(--btnBg);
+}
+
+.btn-cta{
+    color: var(--ctaBtnFontColor);
+    background-color: var(--ctaBtnBg);
+    border: none;
+    height: 50px;
+    width: 100px;
+}
+
+.btn-back{
+    color: var();
+    background-color: var();
+    height: 50px;
+    width: 100px;
 }
 
 :root{
