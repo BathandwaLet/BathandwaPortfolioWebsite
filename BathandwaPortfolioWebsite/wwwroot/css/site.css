@@ -109,8 +109,8 @@ footer {
 }
 
 .btn-back{
-    color: var();
-    background-color: var();
+    color: var(--backBtnFontColor);
+    background-color: var(--backBtnBg);
     height: 50px;
     width: 100px;
 }
