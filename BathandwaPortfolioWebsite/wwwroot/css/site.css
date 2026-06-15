@@ -53,10 +53,9 @@ footer {
     --bg: var(--navy);
     --titleFontColor: var(--gold);
     --bodyFontColor: var(--light-gray);
-    --btnFontColor: var(--navy);
-    --btnBg: var(--light-gray1);
     --ctaBtnBg: var(--gold);
     --ctaBtnFontColor: var(--navy);
+    --ctaBtnBorderColor: var(--gold);
     --backBtnBg: var(--light-gray1);
     --backBtnFontColor: var(--navy);
 }
@@ -80,10 +79,9 @@ footer {
     --bg: var(--light-gray1);
     --titleFontColor: var(--navy);
     --bodyFontColor: var(--dark-gray);
-    --btnFontColor: var(--off-white);
-    --btnBg: var(--navy);
     --ctaBtnBg: var(--navy);
     --ctaBtnFontColor: var(--light-gray1);
+    --ctaBtnBorderColor: var(--navy);
     --backBtnBg: var(--navy);
     --backBtnFontColor: var(--light-gray);
     
@@ -105,11 +103,16 @@ footer {
 }
 
 .btn-cta{
-    color: var(--ctaBtnFontColor);
     background-color: var(--ctaBtnBg);
-    border: none;
+    border: 2px solid var(--ctaBtnBorderColor);
+    border-radius: 4px;
+    color: var(--ctaBtnFontColor);
+    cursor: pointer;
     height: 50px;
     width: 100px;
+    text-decoration: none;
+    text-align: center;
+    
 }
 
 .btn-back{
