@@ -74,7 +74,7 @@
     "issuer": "freeCodeCamp" ,
     "group": "freeCodeCamp",
     "issuedDate": null,
-    "status": "In-progress",
+    "status": "in-progress",
     "pdfUrl": null,
     "credentialUrl": null
   }
