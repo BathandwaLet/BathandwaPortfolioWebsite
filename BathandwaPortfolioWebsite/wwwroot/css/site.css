@@ -59,7 +59,9 @@ footer {
     --backBtnBg: var(--light-gray1);
     --backBtnFontColor: var(--navy);
     --techBadgeBg: var(--gold);
-    --techBadgeFontColor: var(--navy)
+    --techBadgeFontColor: var(--navy);
+    --inProgressBg: var(--gold1);
+    --inProgressFontColor: var(--dark-gray);
 }
 
 .dark-theme .navbar {
@@ -77,6 +79,26 @@ footer {
     color: var(--light-gray) !important;
 }
 
+.dark-theme .card-subtitle {
+    color: #8892b0 !important;
+}
+
+.dark-theme .list-group-item {
+    background-color: #112240;
+    border-color: #1e3a5f;
+    color: var(--light-gray)
+}
+
+.dark-theme .btn-outline-primary {
+    color: var(--gold);
+    border-color:var(--gold);
+}
+
+.dark-theme .btn-outline-primary:hover {
+    background-color: var(--gold);
+    color: var(--navy);
+}
+
 .light-theme{
     --bg: var(--light-gray1);
     --titleFontColor: var(--navy);
@@ -87,8 +109,26 @@ footer {
     --backBtnBg: var(--navy);
     --backBtnFontColor: var(--light-gray);
     --techBadgeBg: var(--dark-gray);
-    --techBadgeFontColor: var(--off-white)
+    --techBadgeFontColor: var(--off-white);
+    --inProgressBg: var(--gold1);
+    --inProgressFontColor: var(--dark-gray);
     
+}
+
+.light-theme .list-group-item {
+    background-color: var(--light-gray1);
+    border-color: var(--gray);
+    color: var(--dark-gray);
+}
+
+.light-theme .btn-outline-primary {
+    color: var(--navy);
+    border-color:var(--navy);
+}
+
+.light-theme .btn-outline-primary:hover {
+    background-color: var(--navy);
+    color: var(--light-gray);
 }
 
 .techBadge {
@@ -150,8 +190,17 @@ footer {
     --dark-gray: #2e2e2e;
     --light-gray1: #b3b3b3;
     --gold1: #d4af37;
+    --red: #cc0000;
 }
 
 h1, h2, h3, h4, h5, h6 {
     color: var(--titleFontColor);
+}
+
+.inProgressBadge{
+    background-color: var(--inProgressBg);
+    border: 4px solid var(--inProgressBg);
+    border-radius: 8px;
+    color: var(--inProgressFontColor);
+    text-align: center;
 }
