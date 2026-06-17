@@ -10,4 +10,14 @@
       <Folder Include="wwwroot\images\projects\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="wwwroot\images\favicon_io\about.txt" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\favicon_io\android-chrome-192x192.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\favicon_io\android-chrome-512x512.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\favicon_io\apple-touch-icon.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\favicon_io\favicon-16x16.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\favicon_io\favicon-32x32.png" />
+      <_ContentIncludedByDefault Remove="wwwroot\images\favicon_io\site.webmanifest" />
+    </ItemGroup>
+
 </Project>
