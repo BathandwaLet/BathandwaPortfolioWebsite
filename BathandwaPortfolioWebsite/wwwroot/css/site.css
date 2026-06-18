@@ -204,3 +204,10 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--inProgressFontColor);
     text-align: center;
 }
+
+.profileImage{
+    max-height: 350px; 
+    max-width: 350px;
+    object-fit: cover;
+    border-radius: 20%;
+}
