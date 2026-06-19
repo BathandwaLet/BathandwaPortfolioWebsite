@@ -20,7 +20,15 @@ public class Project
     
     public string LiveUrl { get; set; }
     
-    public string ImageUrl { get; set; }
+    public string IconImageUrl { get; set; }
+    
+    public string[] ImageUrl { get; set; }
+    
+    public string[] ImageDecsription { get; set; }
+    
+    public string[] ImageAlt { get; set; }
+    
+    public string[] VideoUrl { get; set; }
     
     public bool Featured { get; set; }
     
