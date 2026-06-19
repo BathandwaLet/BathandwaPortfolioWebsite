@@ -15,6 +15,11 @@
         {
             <h3>@project.Title</h3>
             <p>
+                @if (project.IconImageUrl != null)
+                {
+                    <img src="@project.IconImageUrl" class="project-icon"/>
+                }
+                <br/>
                 @project.Tagline
             </p>
             <p>
