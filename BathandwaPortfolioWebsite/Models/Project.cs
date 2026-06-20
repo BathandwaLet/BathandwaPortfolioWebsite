@@ -42,4 +42,6 @@ public class Project
     
     public string ProjectIdea { get; set; }
     
+    public List<Stages> Stages { get; set; }
+    
 }
