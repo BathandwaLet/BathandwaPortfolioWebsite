@@ -45,8 +45,21 @@ footer {
 
 .skill-images{
     position: relative;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.skills-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-bottom: 16px;
+}
+
+.skill-inline {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .dark-theme{
@@ -97,6 +110,10 @@ footer {
 .dark-theme .btn-outline-primary:hover {
     background-color: var(--gold);
     color: var(--navy);
+}
+
+.dark-theme .about-interest-img {
+    mix-blend-mode: lighten;
 }
 
 .light-theme{
@@ -212,9 +229,25 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 20%;
 }
 
-.about-blackchess{
+.about-images{
     max-height: 400px;
     max-width: 400px;
     border-radius: 0%;
-    text-align: center;
-} 
+    mix-blend-mode: multiply;
+}
+
+.project-icon{
+    max-height: 400px;
+    max-width: 400px;
+}
+
+.project-photo{
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 10%;
+}
+
+.project-video{
+    max-height: 400px;
+    max-width: 400px;
+}
