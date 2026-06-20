@@ -9,17 +9,38 @@
     "description": "Risk n Reward is full stack web web application featuring 10 mini-games built using .NET10",
     "projectLinkUrl": "https://github.com/BathandwaLet/Risk_n_Reward",
     "liveUrl": null,
-    "iconImageUrl": "images/projects/RisknReward/icon/RisknReward.png",
-    "imageUrl": ["images/projects/RisknReward/Console/Console_RnR_Baccarat.png","images/projects/RisknReward/Console/Console_RnR_BlackJack_2.png","images/projects/RisknReward/Console/Console_RnR_BlackJack_1.png","images/projects/RisknReward/Console/Console_RnR_CoinToss.png","images/projects/RisknReward/Console/Console_RnR_Crash_1.png","images/projects/RisknReward/Console/Console_RnR_Crash_2.png","images/projects/RisknReward/Console/Console_RnR_Crash_3.png","images/projects/RisknReward/Console/Console_RnR_HighLow.png","images/projects/RisknReward/Console/Console_RnR_LuckyDice.png","images/projects/RisknReward/Console/Console_RnR_Menu.png","images/projects/RisknReward/Console/Console_RnR_PickFive.png","images/projects/RisknReward/Console/Console_RnR_Roulette.png","images/projects/RisknReward/Console/Console_RnR_Slots.png","images/projects/RisknReward/Console/Console_RnR_TexasHoldEm.png"],
+    "iconImageUrl": "images/projects/RisknReward/icon/risknreward-icon.png",
+    "imageUrl": null,
     "imageDescription": [],
     "imageAlt": [],
-    "videoUrl": ["video/projects/RisknReward/console/Console_RnR_Demo.mov"],
+    "videoUrl": [],
     "featured": true,
     "projectRole":null,
     "roleDescription": null,
     "lessonsLearnt": ["KISS(Keep It Simple Stupid)", "Modularised Code", "System Design Matters", "Version control is a skill", "Scope Creep is the Biggest Enemy", "Refactoring is part of development, not a failure"],
     "lessonsLearntDescription": ["The most simple solution is usually the best solution.\nIn this project complexity usually ended up meaning more time spent refactoring code","Breaking logic into smaller, focused components reduced bugs and improves code readability and quality.","Planning the architecture, even at a basic level, made a significant difference in how easy the code was to extend and understand.","This project was my first real exposure to Git and GitHub and fundamentally changed how I approach software development.","Adding features and is great and all but it has delayed my initial plan significantly. Now I know that some ideas are meant for future updates, post deployment.","A module of code performing the same instructions can be written in many different ways. Each way has certain benefits and tradeoffs. Sometimes optimising this block off code led to problems in other dependent blocks of code.\n This was frustrating in the beginning but I came to understand that this is part and parcel of software development, it is not a failure but an opportunity to rethink how I approach the problem."],
-    "projectIdea": "The idea came to me in the December holidays of 2025, I was trying to learn more 'advanced' coding concepts practicing in small isolated console projects.\nThis quickly becoming frustrating as yes I knew what OOP is but I wanted to understand how does this translate to a real project.\n Few days go by I keep seeing betting app advertisements on the television, in particular the Aviator game. I wanted to figure out the logic behind the game. I fired up my laptop and got to writing the code for my version of aviator called Crash and then the rest is history."
+    "projectIdea": "The idea came to me in the December holidays of 2025, I was trying to learn more 'advanced' coding concepts practicing in small isolated console projects.\nThis quickly becoming frustrating as yes I knew what OOP is but I wanted to understand how does this translate to a real project.\n Few days go by I keep seeing betting app advertisements on the television, in particular the Aviator game. I wanted to figure out the logic behind the game. I fired up my laptop and got to writing the code for my version of aviator called Crash and then the rest is history.",
+    "stages": [
+      {
+        "title": "Phase 1: Console Prototype",
+        "description": "This was aimed at building a working prototype. This had allowed me to prototype the game logic, system design and finally learn aspnet mvc.",
+        "status": "completed",
+        "videoUrl": "video/projects/RisknReward/console/Console_RnR_Demo.mp4",
+        "imageUrl": ["images/projects/RisknReward/Console/Console_RnR_Menu.png","images/projects/RisknReward/Console/Console_RnR_Baccarat.png","images/projects/RisknReward/Console/Console_RnR_BlackJack_1.png", "images/projects/RisknReward/Console/Console_RnR_BlackJack_2.png","images/projects/RisknReward/Console/Console_RnR_CoinToss.png","images/projects/RisknReward/Console/Console_RnR_Crash_1.png","images/projects/RisknReward/Console/Console_RnR_Crash_2.png","images/projects/RisknReward/Console/Console_RnR_Crash_3.png","images/projects/RisknReward/Console/Console_RnR_HighLow.png","images/projects/RisknReward/Console/Console_RnR_LuckyDice.png","images/projects/RisknReward/Console/Console_RnR_PickFive.png","images/projects/RisknReward/Console/Console_RnR_Roulette.png","images/projects/RisknReward/Console/Console_RnR_Slots.png","images/projects/RisknReward/Console/Console_RnR_TexasHoldEm.png"] ,
+        "imageDescription": ["This is the Console Menu for Risk n Reward. Here we fond the list of the available games to play","This is Baccarat, an ancient card game. You can chose to bet on either the Player or Banker with the goal of getting as close to nine as possible. No real complex decision to be made just pick a side and watch the cards", "","Blackjack is one of the most popular games of all-time and with reason. The aim is to get as close to twenty one (21) without busting. Every decision you make matters, whether to hit, stand.","Coin Toss is a deceptively simple game. You pick  heads or tails, the coin gets flipped and you will know if you called right. No deep strategy just a fifty fifty chance and luck.","","","Crash is inspired by the popular Aviator multiplier game. A multiplier starts climbing from one (1) and you have one goal cash out before you CRASH!. The longer you wait the more you stand to wait but wait too long and lose everything.","High Low is a card game, where a card is dealt and you guess if the next card will be higher or lower. Too simple, but with each correct guess keeping 'the streak' alive","Lucky Dice is a dice based game where you bet on the outcome on the roll of dice. This one is solely based on your 'luck'. So just roll the dice and see what happens...","Pick Five is a lottery game where you choose five numbers, or use the quickpick feature, and hope the match the numbers drawn. It's the kind of game with low odds but when played with a bit of faith and patience make the wins worth it","Roulette is an all-time classic, a ball spins around a wheel and hopefully land in a numbered slot you selected. With a variety of bets like red, black, green or first 19, or picking a specific number with each bet type paying differently. Every spin is independent of the last, which means every spin is a fresh start","Slot is arguably the most relaxed game here, just place your bet, spin the reel and see what lines up. No thinking beyond deciding the wager amount. Matching symbols across the reels is what you are after with different combinations paying differently.","Texas Hold'Em, this is a carribean stud version where its you versus the house. You are dealt cards and so is the dealer and the better hand wins. Exciting without the needing a full room and a class in how to read people. A good starting point for people new to poker."],
+        "imageAlt": ["Menu","Console-Baccarat","Console-BlackJack","Console-BlackJack","Console-CoinToss","Console-Crash","Console-Crash","Console-Crash","Console-HighLow","Console-LuckyDice", "Console-Roulette", "Console-TexasHoldEm"],
+        "githubUrl": "https://github.com/BathandwaLet/Risk_n_Reward"
+      },
+      {
+        "title": "Phase 2: ASPNET MVC Web App",
+        "description": "This brings the console application to life.",
+        "status": "on-going",
+        "videoUrl": null,
+        "imageUrl": null,
+        "imageDescription": [],
+        "githubUrl": "https://github.com/BathandwaLet/Risk_n_Reward"
+      }
+    ]
   },
 
   {
@@ -32,7 +53,7 @@
     "description": "Coin Trace a full stack web application that tracks personal finances.",
     "projectLinkUrl": "https://github.com/BathandwaLet/Finance_Application",
     "liveUrl": null,
-    "iconImageUrl": null,
+    "iconImageUrl": "images/projects/CoinTrace/icon/coin-trace.png",
     "imageUrl": null,
     "imageDescription": [],
     "imageAlt": [],
@@ -42,7 +63,8 @@
     "roleDescription": null,
     "lessonsLearnt": ["Code first approach to Database integration","Implementation of scripts", "Language interoperability"],
     "lessonsLearntDescription": ["Code first","Scripts","Language interops"],
-    "projectIdea": "This was based off a tutorial I found for ASPNET. I wanted to see how many useful features I could add to it and have a web based app i could use to track my on expenses as a student"
+    "projectIdea": "This was based off a tutorial I found for ASPNET. I wanted to see how many useful features I could add to it and have a web based app i could use to track my on expenses as a student",
+    "stages": null
   },
 
   {
@@ -63,7 +85,8 @@
     "roleDescription": null,
     "lessonsLearnt":[] ,
     "lessonsLearntDescription":[] ,
-    "projectIdea": null
+    "projectIdea": null,
+    "stages": null
   },
 
   {
@@ -86,6 +109,7 @@
     "roleDescription": null,
     "lessonsLearnt":[] ,
     "lessonsLearntDescription":[] ,
-    "projectIdea": null
+    "projectIdea": null,
+    "stages": null
   }
 ]
