@@ -16,8 +16,4 @@
       <_ContentIncludedByDefault Remove="wwwroot\images\favicon_io\site.webmanifest" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="wwwroot\images\projects\CoinTrace\site\" />
-    </ItemGroup>
-
 </Project>
