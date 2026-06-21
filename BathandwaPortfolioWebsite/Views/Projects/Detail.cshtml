@@ -40,6 +40,11 @@
     </p>
 }
 
+@if (Model.VideoUrl != null)
+{
+    <video class="project-video" controls class="w-100 rounded mt-2"><source src="@Model.VideoUrl" alt="@Model.Slug"/></video>
+}
+
 <p>
     @Model.ProjectIdea
 </p>
@@ -59,5 +64,52 @@
             </li>
         }
     </ol>
+}
+
+@*Stages*@
+@if (Model.Stages.Any())
+{
+    <h3>Project Stages</h3>
+    @foreach (var stage in Model.Stages)
+    {
+        @if (stage.Status == "completed")
+        {
+            <h3>@stage.Title</h3>
+            <span class="badge bg-success">Completed</span>
+            <p>
+                @stage.Description
+            </p>
+            
+            @if (stage.VideoUrl != null)
+            {
+                <h5>@stage.Title Video</h5>
+                <video control class="w-100 rounded mt-2">
+                    <source src="@stage.VideoUrl" type="video/mp4" alt="@stage.Title-video"/>
+                </video>
+            }
+
+            @if (stage.ImageUrl.Any())
+            {
+                <h5>@stage.Title Screenshots</h5>
+                
+                    @for (int i = 0; i < stage.Sections.Length; i++)
+                    {
+                        <h5>@stage.Sections[i]</h5>
+                        for (int j = 0; j < stage.ImageUrl[i].Length; j++)
+                        {
+                            <img src="@stage.ImageUrl[i][j]" alt="@stage.ImageAlt" class="project-photo"/>
+                        }
+                        
+                        @if (stage.ImageDescription != null)
+                        {
+                            <p>
+                                @stage.ImageDescription[i]
+                            </p>
+                        }
+                        
+                    }
+            }
+        }
+    }
 }
     
