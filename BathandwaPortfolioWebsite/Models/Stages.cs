@@ -10,11 +10,15 @@ public class Stages
     
     public string VideoUrl { get; set; }
     
-    public string[] ImageUrl { get; set; }
+    public string[] Sections { get; set; }
+    
+    public string[][] ImageUrl { get; set; }
     
     public string[] ImageDescription { get; set; }
     
     public string[] ImageAlt { get; set; }
     
     public string GithubUrl { get; set; }
+    
+    public bool IsFeatured { get; set; }
 }
