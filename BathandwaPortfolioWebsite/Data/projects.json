@@ -23,10 +23,10 @@
     "stages": [
       {
         "title": "Phase 1: Console Prototype",
-        "description": "This was aimed at building a working prototype. This had allowed me to prototype the game logic, system design and finally learn aspnet mvc.",
+        "description": "This was aimed at building a working prototype. This had allowed me to prototype the game logic, system design whilst learning aspnet mvc. \nThe program has a consistent flow:\n1. From the menu, the user selects the game they want to play\n2. A welcome message is displayed and the can place the wager amount\n3. The amount is then validated against the the wallet to establish it is a valid bet, If valid the amount is deducted from the wallet.\n4. The game then loads and the user makes decisions where applicable\n5. Game engine is then called to evaluate the game\n6. If the user won the appropriate amount is credited to their wallet and a message is displayed else the appropriate 'losing' message is displayed\n7. Then the user's current wallet balance is shown\n8. The user is then asked if they want to play again",
         "status": "completed",
         "videoUrl": "/video/projects/RisknReward/console/Console_RnR_Demo.mp4",
-        "sections": ["Menu","BlackJack","Coin Toss","Crash","High Low", "Lucky Dice", "Roulette", "Texas Hold'Em"],
+        "sections": ["Menu","Baccarat","BlackJack","Coin Toss","Crash","High Low", "Lucky Dice","Pick Five", "Roulette", "Slots","Texas Hold'Em"],
         "imageUrl": [["/images/projects/RisknReward/Console/Console_RnR_Menu.png"],
           ["/images/projects/RisknReward/Console/Console_RnR_Baccarat.png"],
           ["/images/projects/RisknReward/Console/Console_RnR_BlackJack.png"],
@@ -38,9 +38,10 @@
           ["/images/projects/RisknReward/Console/Console_RnR_Roulette.png"],
           ["/images/projects/RisknReward/Console/Console_RnR_Slots.png"],
           ["/images/projects/RisknReward/Console/Console_RnR_TexasHoldEm.png"]] ,
-        "imageDescription": ["This is the Console Menu for Risk n Reward. Here we fond the list of the available games to play","This is Baccarat, an ancient card game. You can chose to bet on either the Player or Banker with the goal of getting as close to nine as possible. No real complex decision to be made just pick a side and watch the cards", null,"Blackjack is one of the most popular games of all-time and with reason. The aim is to get as close to twenty one (21) without busting. Every decision you make matters, whether to hit, stand.","Coin Toss is a deceptively simple game. You pick  heads or tails, the coin gets flipped and you will know if you called right. No deep strategy just a fifty fifty chance and luck.",null,null,"Crash is inspired by the popular Aviator multiplier game. A multiplier starts climbing from one (1) and you have one goal cash out before you CRASH!. The longer you wait the more you stand to wait but wait too long and lose everything.","High Low is a card game, where a card is dealt and you guess if the next card will be higher or lower. Too simple, but with each correct guess keeping 'the streak' alive","Lucky Dice is a dice based game where you bet on the outcome on the roll of dice. This one is solely based on your 'luck'. So just roll the dice and see what happens...","Pick Five is a lottery game where you choose five numbers, or use the 'Quick Pick' feature, and hope the match the numbers drawn. It's the kind of game with low odds but when played with a bit of faith and patience make the wins worth it","Roulette is an all-time classic, a ball spins around a wheel and hopefully land in a numbered slot you selected. With a variety of bets like red, black, green or first 19, or picking a specific number with each bet type paying differently. Every spin is independent of the last, which means every spin is a fresh start","Slot is arguably the most relaxed game here, just place your bet, spin the reel and see what lines up. No thinking beyond deciding the wager amount. Matching symbols across the reels is what you are after with different combinations paying differently.","Texas Hold'Em, this is a caribbean stud version where its you versus the house. You are dealt cards and so is the dealer and the better hand wins. Exciting without the needing a full room and a class in how to read people. A good starting point for people new to poker."],
-        "imageAlt": ["Menu","Console-Baccarat","Console-BlackJack","Console-BlackJack","Console-CoinToss","Console-Crash","Console-Crash","Console-Crash","Console-HighLow","Console-LuckyDice", "Console-Roulette", "Console-TexasHoldEm"],
-        "githubUrl": "https://github.com/BathandwaLet/Risk_n_Reward"
+        "imageDescription": ["This is the Console Menu for Risk n Reward. Here we fond the list of the available games to play","This is Baccarat, an ancient card game. You can chose to bet on either the Player or Banker with the goal of getting as close to nine as possible. No real complex decision to be made just pick a side and watch the cards","Blackjack is one of the most popular games of all-time and with reason. The aim is to get as close to twenty one (21) without busting. Every decision you make matters, whether to hit, stand.","Coin Toss is a deceptively simple game. You pick  heads or tails, the coin gets flipped and you will know if you called right. No deep strategy just a fifty fifty chance and luck.","Crash is inspired by the popular Aviator multiplier game. A multiplier starts climbing from one (1) and you have one goal cash out before you CRASH!. The longer you wait the more you stand to wait but wait too long and lose everything.","High Low is a card game, where a card is dealt and you guess if the next card will be higher or lower. Too simple, but with each correct guess keeping 'the streak' alive","Lucky Dice is a dice based game where you bet on the outcome on the roll of dice. This one is solely based on your 'luck'. So just roll the dice and see what happens...","Pick Five is a lottery game where you choose five numbers, or use the 'Quick Pick' feature, and hope the match the numbers drawn. It's the kind of game with low odds but when played with a bit of faith and patience make the wins worth it","Roulette is an all-time classic, a ball spins around a wheel and hopefully land in a numbered slot you selected. With a variety of bets like red, black, green or first 19, or picking a specific number with each bet type paying differently. Every spin is independent of the last, which means every spin is a fresh start","Slot is arguably the most relaxed game here, just place your bet, spin the reel and see what lines up. No thinking beyond deciding the wager amount. Matching symbols across the reels is what you are after with different combinations paying differently.","Texas Hold'Em, this is a caribbean stud version where its you versus the house. You are dealt cards and so is the dealer and the better hand wins. Exciting without the needing a full room and a class in how to read people. A good starting point for people new to poker."],
+        "imageAlt": ["Menu","Console-Baccarat","Console-BlackJack","Console-CoinToss","Console-Crash","Console-HighLow","Console-LuckyDice","Console-PickFive", "Console-Roulette","Console-Slots", "Console-TexasHoldEm"],
+        "githubUrl": "https://github.com/BathandwaLet/Risk_n_Reward",
+        "isFeatured": true
       },
       {
         "title": "Phase 2: ASPNET MVC Web App",
@@ -49,7 +50,8 @@
         "videoUrl": null,
         "imageUrl": null,
         "imageDescription": [],
-        "githubUrl": "https://github.com/BathandwaLet/Risk_n_Reward"
+        "githubUrl": "https://github.com/BathandwaLet/Risk_n_Reward",
+        "isFeatured": false
       }
     ]
   },
@@ -59,12 +61,12 @@
     "title":"Coin Trace",
     "group": "Solo",
     "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "Chart.js", "EF Core", "Git", "JavaScript", "PostgreSQL"] ,
-    "tagline": "Finance, Web-based",
+    "tagline": "Finance, Web-based application used to track personal finances.",
     "projectStatus": "on-going",
     "description": "Coin Trace a full stack web application that tracks personal finances.",
     "projectLinkUrl": "https://github.com/BathandwaLet/Finance_Application",
     "liveUrl": null,
-    "iconImageUrl": "images/projects/CoinTrace/icon/coin-trace.png",
+    "iconImageUrl": "/images/projects/CoinTrace/icon/coin-trace.png",
     "imageUrl": null,
     "imageDescription": [],
     "imageAlt": [],
@@ -75,7 +77,16 @@
     "lessonsLearnt": ["Code first approach to Database integration","Implementation of scripts", "Language interoperability"],
     "lessonsLearntDescription": ["Code first","Scripts","Language interops"],
     "projectIdea": "This was based off a tutorial I found for ASPNET. I wanted to see how many useful features I could add to it and have a web based app i could use to track my on expenses as a student",
-    "stages": null
+    "stages": [{
+      "title": "",
+      "description":"This ",
+      "status":"on-going",
+      "videoUrl": null,
+      "imageUrl": [],
+      "imageDescription": [[]],
+      "githubUrl": "https://github.com/BathandwaLet/Finance_Application",
+      "isFeatured": true
+    }]
   },
 
   {
