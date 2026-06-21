@@ -232,22 +232,29 @@ h1, h2, h3, h4, h5, h6 {
 .about-images{
     max-height: 400px;
     max-width: 400px;
-    border-radius: 0%;
+    border-radius: 0;
     mix-blend-mode: multiply;
 }
 
 .project-icon{
     max-height: 400px;
     max-width: 400px;
+    border-radius: 10%;
 }
 
 .project-photo{
-    max-height: 400px;
-    max-width: 400px;
-    border-radius: 10%;
+    max-height: 600px;
+    max-width: 600px;
+    border-radius: 3%;
+}
+
+.project-photo:hover{
+    max-height: 720px;
+    max-width: 1080px;
 }
 
 .project-video{
     max-height: 400px;
     max-width: 400px;
+    border-radius: 10%;
 }
