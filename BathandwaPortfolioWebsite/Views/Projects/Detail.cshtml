@@ -72,10 +72,19 @@
     <h3>Project Stages</h3>
     @foreach (var stage in Model.Stages)
     {
-        @if (stage.Status == "completed")
+        @if (stage.IsFeatured == true)
         {
             <h3>@stage.Title</h3>
-            <span class="badge bg-success">Completed</span>
+            if (stage.Status == "completed")
+            {
+                <span class="badge bg-success">Completed</span>    
+            }
+
+            if (stage.Status == "on-going")
+            {
+                <span class="badge bg-warning">On Going</span>  
+            }
+            
             <p>
                 @stage.Description
             </p>
@@ -92,9 +101,13 @@
             {
                 <h5>@stage.Title Screenshots</h5>
                 
-                    @for (int i = 0; i < stage.Sections.Length; i++)
+                    @for (int i = 0; i < stage.ImageUrl.Length; i++)
                     {
-                        <h5>@stage.Sections[i]</h5>
+                        if (stage.Sections != null)
+                        {
+                            <h5>@stage.Sections[i]</h5>
+                        }
+                        
                         for (int j = 0; j < stage.ImageUrl[i].Length; j++)
                         {
                             <img src="@stage.ImageUrl[i][j]" alt="@stage.ImageAlt" class="project-photo"/>
