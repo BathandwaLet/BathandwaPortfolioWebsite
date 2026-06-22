@@ -23,7 +23,7 @@
     "stages": [
       {
         "title": "Phase 1: Console Prototype",
-        "description": "This was aimed at building a working prototype. This had allowed me to prototype the game logic, system design whilst learning aspnet mvc. \nThe program has a consistent flow:\n1. From the menu, the user selects the game they want to play\n2. A welcome message is displayed and the can place the wager amount\n3. The amount is then validated against the the wallet to establish it is a valid bet, If valid the amount is deducted from the wallet.\n4. The game then loads and the user makes decisions where applicable\n5. Game engine is then called to evaluate the game\n6. If the user won the appropriate amount is credited to their wallet and a message is displayed else the appropriate 'losing' message is displayed\n7. Then the user's current wallet balance is shown\n8. The user is then asked if they want to play again",
+        "description": "This was aimed at building a working prototype. This had allowed me to prototype the game logic, system design whilst learning ASPNET MVC. \nThe program has a consistent flow:\n1. From the menu, the user selects the game they want to play\n2. A welcome message is displayed and the can place the wager amount\n3. The amount is then validated against the the wallet to establish it is a valid bet, If valid the amount is deducted from the wallet.\n4. The game then loads and the user makes decisions where applicable\n5. Game engine is then called to evaluate the game\n6. If the user won the appropriate amount is credited to their wallet and a message is displayed else the appropriate 'losing' message is displayed\n7. Then the user's current wallet balance is shown\n8. The user is then asked if they want to play again",
         "status": "completed",
         "videoUrl": "/video/projects/RisknReward/console/Console_RnR_Demo.mp4",
         "sections": ["Menu","Baccarat","BlackJack","Coin Toss","Crash","High Low", "Lucky Dice","Pick Five", "Roulette", "Slots","Texas Hold'Em"],
@@ -50,6 +50,7 @@
         "videoUrl": null,
         "imageUrl": null,
         "imageDescription": [],
+        "imageAlt": null,
         "githubUrl": "https://github.com/BathandwaLet/Risk_n_Reward",
         "isFeatured": false
       }
@@ -76,14 +77,19 @@
     "roleDescription": null,
     "lessonsLearnt": ["Code first approach to Database integration","Implementation of scripts", "Language interoperability"],
     "lessonsLearntDescription": ["Code first","Scripts","Language interops"],
-    "projectIdea": "This was based off a tutorial I found for ASPNET. I wanted to see how many useful features I could add to it and have a web based app i could use to track my on expenses as a student",
+    "projectIdea": "This was based off a tutorial I found for ASPNET MVC from freeCodeCamp. I wanted to see how many useful features I could add to it and have a web based app i could use to track my on expenses as a student",
     "stages": [{
-      "title": "",
-      "description":"This ",
+      "title": "ASPNET MVC",
+      "description":"This the work I have completed so far on Coin Trace.",
       "status":"on-going",
       "videoUrl": null,
-      "imageUrl": [],
-      "imageDescription": [[]],
+      "sections": null,
+      "imageUrl": [["/images/projects/CoinTrace/site/coin-trace_expenseIndexpage.png","/images/projects/CoinTrace/site/coin-trace_expenseIndexpage_2.png"],
+        ["/images/projects/CoinTrace/site/coin-trace_addExpensepage.png"],
+        ["/images/projects/CoinTrace/site/coin-trace_incomeIndex.png","/images/projects/CoinTrace/site/coin-trace_incomeIndex2.png"],
+        ["/images/projects/CoinTrace/site/coin-trace_addIncome.png"]],
+      "imageDescription": ["This is the index page for expenses. Here we see the summary of the expenses and graphic breakdown of the expenses by category","This the page used to submit the different types of expenses","This the income index page that displays the a summary of the income transactions and a graph of the income by categories.","This the add income page we use to add any new income received."],
+      "imageAlt": ["Coin-Trace Expense Index Page", "Coin-Trace Add Expense", "Coin-Trace Income Index Page","Coin-Trace Add Income Page"],
       "githubUrl": "https://github.com/BathandwaLet/Finance_Application",
       "isFeatured": true
     }]
