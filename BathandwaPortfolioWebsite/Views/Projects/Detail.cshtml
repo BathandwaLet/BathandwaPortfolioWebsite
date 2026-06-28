@@ -22,9 +22,19 @@
     }
 </p>
 
-<p>
-    Project Status: @Model.ProjectStatus
-</p>
+@if (@Model.ProjectStatus == "completed")
+{
+    <p>
+        Project Status: <span class="badge bg-success">@Model.ProjectStatus</span>    
+    </p>
+}
+    
+@if (@Model.ProjectStatus == "on-going")
+{
+    <p>
+        Project Status: <span class="badge bg-warning">@Model.ProjectStatus</span>
+    </p>
+}
 
 @if (Model.LiveUrl != null)
 {
