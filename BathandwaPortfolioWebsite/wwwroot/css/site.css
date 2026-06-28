@@ -265,6 +265,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 3%;
 }
 
+.education-icon:hover{
+    max-height:500px;
+    max-width: 500px;
+    border-radius: 3%;
+}
+
 .experience-photo{
     max-height: 400px;
     max-width: 400px;
