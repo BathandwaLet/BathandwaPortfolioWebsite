@@ -233,7 +233,6 @@ h1, h2, h3, h4, h5, h6 {
     max-height: 400px;
     max-width: 400px;
     border-radius: 0;
-    mix-blend-mode: multiply;
 }
 
 .project-icon{
