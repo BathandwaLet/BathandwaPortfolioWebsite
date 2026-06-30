@@ -159,6 +159,17 @@ footer {
     color: var(--techBadgeFontColor);
 }
 
+.techBadge:hover {
+    height: 30px;
+    width: 50px;
+    font-size: 18px;
+    border: 4px solid var(--techBadgeBg);
+    border-radius: 10px;
+    background-color: var(--techBadgeBg);
+    text-align: center;
+    color: var(--techBadgeFontColor);
+}
+
 .btn-darkMode{
     height: 40px;
     width: 40px;
