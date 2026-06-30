@@ -22,14 +22,14 @@
     }
 </p>
 
-@if (@Model.ProjectStatus == "completed")
+@if (@Model.ProjectStatus == "Completed")
 {
     <p>
         Project Status: <span class="project-status-badge-completed"><strong>@Model.ProjectStatus</strong></span>    
     </p>
 }
     
-@if (@Model.ProjectStatus == "on-going")
+@if (@Model.ProjectStatus == "On-going")
 {
     <p>
         Project Status: <span class="project-status-badge-ongoing"><strong>@Model.ProjectStatus</strong></span>
@@ -92,7 +92,7 @@
 
             if (stage.Status == "on-going")
             {
-                <span class="project-status-badge-ongoing"><strong>On Going</strong></span>  
+                <span class="project-status-badge-ongoing"><strong>On-going</strong></span>  
             }
             
             <p>
