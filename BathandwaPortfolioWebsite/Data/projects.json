@@ -101,7 +101,7 @@
     "group":"Solo",
     "techStack":["C#(.NET 10)", "ASP.NET Core MVC", "Git"],
     "tags":"portfolio, web-based",
-    "projectStatus":"on-going",
+    "projectStatus":"On-going",
     "description": "This is my portfolio website where I will share my projects, education, experience and contact details",
     "projectLinkUrl": "https://github.com/BathandwaLet/BathandwaPortfolioWebsite",
     "liveUrl": null,
