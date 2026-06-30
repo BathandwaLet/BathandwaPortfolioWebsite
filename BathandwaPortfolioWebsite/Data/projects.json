@@ -63,7 +63,7 @@
     "group": "Solo",
     "techStack":["C#(.NET 10)", "ASP.NET Core MVC","ASP.NET Core Identity", "Chart.js", "EF Core", "Git", "JavaScript", "PostgreSQL"] ,
     "tagline": "Finance, Web-based application used to track personal finances.",
-    "projectStatus": "on-going",
+    "projectStatus": "On-going",
     "description": "Coin Trace a full stack web application that tracks personal finances.",
     "projectLinkUrl": "https://github.com/BathandwaLet/Finance_Application",
     "liveUrl": null,
