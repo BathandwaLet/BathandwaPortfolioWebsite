@@ -241,6 +241,12 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 10%;
 }
 
+.project-icon:hover{
+    max-height: 500px;
+    max-width: 500px;
+    border-radius: 10%;
+}
+
 .project-photo{
     max-height: 600px;
     max-width: 600px;
